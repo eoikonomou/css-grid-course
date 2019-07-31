@@ -1,0 +1,23 @@
+{
+  "name": "css-grid-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' -- directory --port 7777 --browser 'Chrome'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eusoikonomou/css-grid-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eusoikonomou/css-grid-course/issues"
+  },
+  "homepage": "https://github.com/eusoikonomou/css-grid-course#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
